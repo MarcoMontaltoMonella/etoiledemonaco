@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import '../styles/Footer.css'
 
 class Footer extends Component {
     
     render() {
+        var year = new Date().getFullYear();
         return (
-            <h1>Footer</h1>
+            <div className='sticky-footer'>&copy; Etoile de Monaco - {year}</div>
         );
     }
 }

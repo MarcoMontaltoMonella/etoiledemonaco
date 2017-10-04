@@ -10,7 +10,7 @@ class Header extends Component {
             <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#">Etoile de Monaco</a>
+                        <a href="/">Etoile de Monaco</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
