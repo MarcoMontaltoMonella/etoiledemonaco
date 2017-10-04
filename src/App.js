@@ -11,7 +11,7 @@ import ContactsPage from './pages/ContactsPage';
 import NoFoundPage from './pages/NoFoundPage';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {red100, red500, red700} from 'material-ui/styles/colors';
+import { red100, red500, red700 } from 'material-ui/styles/colors';
 
 class App extends Component {
     render() {
