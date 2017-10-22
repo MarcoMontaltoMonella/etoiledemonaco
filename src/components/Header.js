@@ -24,11 +24,10 @@ class Header extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <RouterNavItem eventKey={1} to="/">Home</RouterNavItem>
-                        <RouterNavItem eventKey={2} to="/about">About</RouterNavItem>
-                        <RouterNavItem eventKey={3} to="/trainers">Trainers</RouterNavItem>
-                        <RouterNavItem eventKey={4} to="/courses">Courses</RouterNavItem>
-                        <RouterNavItem eventKey={5} to="/contacts">Contacts</RouterNavItem>
+                        <RouterNavItem eventKey={1} to="/about">About</RouterNavItem>
+                        <RouterNavItem eventKey={2} to="/trainers">Trainers</RouterNavItem>
+                        <RouterNavItem eventKey={3} to="/courses">Courses</RouterNavItem>
+                        <RouterNavItem eventKey={4} to="/contacts">Contacts</RouterNavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

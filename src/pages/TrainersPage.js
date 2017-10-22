@@ -5,6 +5,7 @@ class TrainersPage extends Component {
         return (
             <div className="main-body">
                 <h1>Trainers</h1>
+                
             </div>
         );
     }

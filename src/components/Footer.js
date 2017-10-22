@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import '../styles/Footer.css';
+import logo from '../images/logo.png';
+import { Image } from 'react-bootstrap';
 
 class Footer extends Component {
     
     render() {
         var year = new Date().getFullYear();
         return (
-            <div className='sticky-footer'>&copy; &Eacute;toile de Monaco - {year}</div>
+            <div className='sticky-footer'>
+                <Image src={logo} height={40} width={40}/>
+                &copy; &Eacute;toile de Monaco - {year}
+            </div>
         );
     }
 }
