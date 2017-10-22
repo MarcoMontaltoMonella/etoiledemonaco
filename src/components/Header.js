@@ -29,11 +29,6 @@ class Header extends Component {
                         <RouterNavItem eventKey={3} to="/trainers">Trainers</RouterNavItem>
                         <RouterNavItem eventKey={4} to="/courses">Courses</RouterNavItem>
                         <RouterNavItem eventKey={5} to="/contacts">Contacts</RouterNavItem>
-                        <NavDropdown eventKey={6} title="Language" id='basic-nav-dropdown'>
-                            <MenuItem eventKey={6.1} id='en' onClick={this.setLanguage()}>English</MenuItem>
-                            <MenuItem eventKey={6.2} id='fr' onClick={this.setLanguage()}>Fran&ccedil;ais</MenuItem>
-                            <MenuItem eventKey={6.3} id='it' onClick={this.setLanguage()}>Italiano</MenuItem>
-                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
