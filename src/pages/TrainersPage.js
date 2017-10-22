@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class TrainersPage extends Component {
     render() {
         return (
-            <h1>Trainers</h1>
+            <div className="main-body">
+                <h1>Trainers</h1>
+            </div>
         );
     }
 }

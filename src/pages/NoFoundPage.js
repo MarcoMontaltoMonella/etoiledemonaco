@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class NoFoundPage extends Component {
     render() {
         return (
-            <h1>No found</h1>
+            <div className="main-body">
+                <h1>No found</h1>
+            </div>
         );
     }
 }
