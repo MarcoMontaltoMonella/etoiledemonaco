@@ -11,6 +11,7 @@ class TrainersPage extends Component {
         return (
             <div className="main-body">
                 <h1>Trainers</h1>
+                <hr/>
                 <Grid>
                     <Row className="show-grid">
                     <Col sm={6} md={3}><Image src={ThierryPic} responsive /></Col>
@@ -32,7 +33,7 @@ class TrainersPage extends Component {
                     <Row className="show-grid">
                     <Col sm={6} md={6}>
                         <Panel header="S&eacute;bastien GUIZOL">
-                        Vice-Champion de France DN2 avec l'OAJLP en 1990,<br/>
+                         Vice-Champion de France DN2 avec l'OAJLP en 1990,<br/>
                          6&egrave;me en Finale de DN1,<br/>
                          3&egrave;me de la Coupe d'Europe par &eacute;quipe &agrave; Luzerne en 1991,<br/>
                          S&acute;bastien Guizol est aux c&ocirc;t&eacute;s de Thierry depuis de nombreuses ann&eacute;es.<br/>
@@ -64,10 +65,10 @@ class TrainersPage extends Component {
                     <Row className="show-grid">
                     <Col sm={6} md={6}>
                         <Panel header="Barbara AYMES">
-                        11&egrave;me  par &eacute;quipe aux Championnats du Monde en 1991 &agrave; Indianapolis.
-                        Remplaçante aux JO de Barcelone en 1992.
-                        En &eacute;quipe de France de 1989 &agrave; 1992.
-                        Elle rejoint l' Etoile de Monaco en 2016.
+                            11&egrave;me par &eacute;quipe aux Championnats du Monde en 1991 &agrave; Indianapolis.
+                            Rempla&ccedil;ante aux JO de Barcelone en 1992.
+                            En &eacute;quipe de France de 1989 &agrave; 1992.
+                            Elle rejoint l'&Eacute;toile de Monaco en 2016.
                         </Panel>
                     </Col>
                     <Clearfix visibleSmBlock></Clearfix>

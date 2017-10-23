@@ -6,6 +6,7 @@ class ContactsPage extends Component {
         return (
             <div className="main-body">
                 <h2>Association de Gymnastique l'&Eacute;toile de Monaco</h2>
+                <hr/>
                 <ListGroup>
                     <ListGroupItem header="Address" href="https://maps.google.com?q=43.738708,7.419059">
                         Salles de Gymnastique<br/>
