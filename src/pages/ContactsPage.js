@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import '../styles/ContactsPage.css';
 
 class ContactsPage extends Component {
     render() {
@@ -8,18 +9,19 @@ class ContactsPage extends Component {
                 <h2>Association de Gymnastique l'&Eacute;toile de Monaco</h2>
                 <hr/>
                 <ListGroup>
-                    <ListGroupItem header="Address" href="https://maps.google.com?q=43.738708,7.419059">
+                    <ListGroupItem href="https://maps.google.com?q=43.738708,7.419059">
+                        <div className="list-header">Address</div>
                         Salles de Gymnastique<br/>
                         Vallon de St D&eacute;vote<br/>
                         <small>(Parking de la Gare -9)</small><br/>
                         98000 MONACO<br/>
                     </ListGroupItem>
-                    <br/>
-                    <ListGroupItem header="Tel / Fax" href="tel:0037797703320">
+                    <ListGroupItem href="tel:0037797703320">
+                        <div className="list-header">Tel / Fax</div>
                         00 377 97 70 33 20
                     </ListGroupItem>
-                    <br/>
-                    <ListGroupItem header="Email" href="mailTo:etoile@libello.com">
+                    <ListGroupItem href="mailTo:etoile@libello.com">
+                        <div className="list-header">Email</div>
                         etoile@libello.com
                     </ListGroupItem>
                 </ListGroup>
