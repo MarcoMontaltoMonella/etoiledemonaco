@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+#principles {
+    font-style: italic;
+}
+
+quote-block {
+    text-align: left;
+}

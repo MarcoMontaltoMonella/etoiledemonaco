@@ -36,7 +36,7 @@ class TrainersPage extends Component {
                          Vice-Champion de France DN2 avec l'OAJLP en 1990,<br/>
                          6&egrave;me en Finale de DN1,<br/>
                          3&egrave;me de la Coupe d'Europe par &eacute;quipe &agrave; Luzerne en 1991,<br/>
-                         S&acute;bastien Guizol est aux c&ocirc;t&eacute;s de Thierry depuis de nombreuses ann&eacute;es.<br/>
+                         S&eacute;bastien Guizol est aux c&ocirc;t&eacute;s de Thierry depuis de nombreuses ann&eacute;es.<br/>
                          S&eacute;bastien a rejoint le club en 2007 et a permis, avec Thierry, &agrave; faire passer un cap &agrave; l'&Eacute;toile de Monaco.
                         </Panel>
                     </Col>
