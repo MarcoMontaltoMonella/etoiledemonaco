@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import { ListGroup, ListGroupItem, Grid, Image, Row } from 'react-bootstrap';
 import GMaps from '../components/GMaps';
+import '../styles/Body.css';
 import '../styles/ContactsPage.css';
+import FBIcon from '../images/icons/facebook-logo.png';
+import TwitterIcon from '../images/icons/twitter-logo.png';
 
 class ContactsPage extends Component {
     render() {
@@ -20,6 +23,20 @@ class ContactsPage extends Component {
                     <ListGroupItem href="tel:0037797703320">
                         <div className="list-header">Tel / Fax</div>
                         00 377 97 70 33 20
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <div className="list-header">Socials</div>
+                        <Grid>
+                            <Row className="show-grid">
+                                <a href="https://www.facebook.com/etoiledemonaco">
+                                    <Image alt="fb-icon" src={FBIcon} width={28} height={28} />
+                                </a>
+                                &emsp;
+                                <a href="https://twitter.com/etoiledemonaco">
+                                    <Image alt="fb-icon" src={TwitterIcon} width={28} height={28} />
+                                </a>
+                            </Row>
+                        </Grid>
                     </ListGroupItem>
                     <ListGroupItem href="mailTo:etoile@libello.com">
                         <div className="list-header">Email</div>

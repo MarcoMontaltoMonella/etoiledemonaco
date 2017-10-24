@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image, Grid, Row, Col, Clearfix, Panel } from 'react-bootstrap';
+import '../styles/Body.css';
 import ThierryPic from '../images/people/thierry.jpg';
 import SebastienPic from '../images/people/seb.jpg';
 import DavidPic from '../images/people/david.jpg';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Clearfix, Image } from 'react-bootstrap';
 import "../styles/Body.css";
+import '../styles/AboutPage.css';
 import DominiquePic from '../images/people/dominique.jpg';
 import GymPic from '../images/salledegym/gym_1.jpg';
 import KevPBar from '../images/people/kevin_pbar.jpg';
@@ -11,7 +12,6 @@ import HighBarIcon from '../images/icons/hb.png';
 import PBarsIcon from '../images/icons/pb.png';
 import PommelHorseIcon from '../images/icons/ph.png';
 import VaultIcon from '../images/icons/vault.png';
-import '../styles/AboutPage.css';
 
 class AboutPage extends Component {
     render() {

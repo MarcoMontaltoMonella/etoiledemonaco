@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Table, Panel, PanelGroup } from 'react-bootstrap';
+import '../styles/Body.css';
 
 class CoursesPage extends Component {
     render() {
@@ -201,6 +202,12 @@ class CoursesPage extends Component {
                     </Panel>
                     <Panel header="Trampoline &agrave; la carte">
                         20 &euro; par cour, &agrave; r&eacute;server &agrave; l'avance (4 enfants minimum)
+                    </Panel>
+                    <Panel header="Tenue pour comp&eacute;titions">
+                        150 &euro;
+                    </Panel>
+                    <Panel header="T-shirt du club">
+                        25 &euro;
                     </Panel>
                 </PanelGroup>
             </div>
