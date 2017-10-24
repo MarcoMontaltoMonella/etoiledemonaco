@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import GMaps from '../components/GMaps';
 import '../styles/ContactsPage.css';
 
 class ContactsPage extends Component {
@@ -25,7 +26,14 @@ class ContactsPage extends Component {
                         etoile@libello.com
                     </ListGroupItem>
                 </ListGroup>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d720.6619649896626!2d7.4191670359291075!3d43.73864167675615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc28be4900dcb%3A0xc25b313323903781!2sStar+De+Monaco+(L&#39;)!5e0!3m2!1sen!2sus!4v1508709587455" width={100+"%"} height={300} frameborder={0} style={{border:0, overflow: "auto", clear: "both"}}></iframe>
+                
+                <GMaps
+                    isMarkerShown
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    loadingElement={<div style={{ height: `100%` }} />}
+                    containerElement={<div style={{ height: `400px` }} />}
+                    mapElement={<div style={{ height: `100%` }} />}
+                />
             </div>
         );
     }

@@ -10,7 +10,7 @@ class TrainersPage extends Component {
 
         return (
             <div className="main-body">
-                <h1>Trainers</h1>
+                <h1>Entraineurs</h1>
                 <hr/>
                 <Grid>
                     <Row className="show-grid">

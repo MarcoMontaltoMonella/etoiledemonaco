@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Clearfix, Panel, Image } from 'react-bootstrap';
+import { Grid, Row, Col, Clearfix, Image } from 'react-bootstrap';
 import "../styles/Body.css";
 import DominiquePic from '../images/people/dominique.jpg';
 import GymPic from '../images/salledegym/gym_1.jpg';
 import KevPBar from '../images/people/kevin_pbar.jpg';
 import ThierryJul from '../images/people/thierry_julien.jpg';
+import RingsIcon from '../images/icons/rings.png';
+import FloorIcon from '../images/icons/floor.png';
+import HighBarIcon from '../images/icons/hb.png';
+import PBarsIcon from '../images/icons/pb.png';
+import PommelHorseIcon from '../images/icons/ph.png';
+import VaultIcon from '../images/icons/vault.png';
 import '../styles/AboutPage.css';
 
 class AboutPage extends Component {
@@ -50,13 +56,21 @@ class AboutPage extends Component {
                             pour la pratique de la gymnastique.<br/> 
                             Et bien sur des cours encadr&eacute;s par des entraineurs tr&egrave;s performents.
                         </p>
+                        <Row className="show-grid">
+                            <Image alt="still-rings" src={RingsIcon} width={40} height={40} />
+                            <Image alt="floor" src={FloorIcon} width={40} height={40} />
+                            <Image alt="high-bar" src={HighBarIcon} width={40} height={40} />
+                            <Image alt="parellel-bars" src={PBarsIcon} width={40} height={40} />
+                            <Image alt="pommel-horse" src={PommelHorseIcon} width={40} height={40} />
+                            <Image alt="vault" src={VaultIcon} width={40} height={40} />
+                        </Row>
                         </Col>
                     </Row>
                     <hr/>
                     <Row className="show-grid">
                         <Col sm={6} md={6}>
                             <h2>La place du sport dans la notre vie</h2>
-                            <p className="quote-block">
+                            <div className="quote-block">
                                 Le sport est plus qu'une activit&eacute;: il contribue &agrave; 
                                 l'&eacute;quilibre <strong>PHYSIQUE</strong> et <strong>PSYCHIQUE</strong> de chacun.
                                 Les personnes qui pratiquent ou qui ont pratiqu&eacute; un sport dans le pass&eacute;,
@@ -68,7 +82,7 @@ class AboutPage extends Component {
                                     <li>- Organiser et planifier chaque &eacute;tape</li>
                                     <li>- Savoir se d&eacute;passer, affronter les difficult&eacute;s</li>
                                 </ul>
-                            </p>
+                            </div>
                         </Col>
                         <Col sm={6} md={3}><Image src={KevPBar} responsive /></Col>
                         <Clearfix visibleSmBlock></Clearfix>
