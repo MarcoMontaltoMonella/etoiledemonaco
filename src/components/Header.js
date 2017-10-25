@@ -3,15 +3,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import RouterNavItem from './RouterNavItem';
 
 class Header extends Component {
-
-    constructor() {
-        super();
-        this.setLanguage.bind(this);
-    }
-
-    setLanguage() {
-        return;
-    }
     
     render() {
         return(

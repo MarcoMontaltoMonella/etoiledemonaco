@@ -8,3 +8,8 @@
 strong {
     color: rgb(231, 85, 45);
 }
+
+html {
+    width: 100%;
+    height: 100%;
+}

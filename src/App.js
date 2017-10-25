@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { HashRouter } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TrainersPage from './pages/TrainersPage';
@@ -47,7 +46,6 @@ class App extends Component {
                             </Switch>
                         </div>
                     </HashRouter>
-                    <Footer/>
                 </div>
             </MuiThemeProvider>
         );

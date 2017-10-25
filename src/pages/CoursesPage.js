@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table, Panel, PanelGroup } from 'react-bootstrap';
 import '../styles/Body.css';
 
+
 class CoursesPage extends Component {
     render() {
         return (

@@ -5,6 +5,7 @@ import '../styles/Body.css';
 import '../styles/ContactsPage.css';
 import FBIcon from '../images/icons/facebook-logo.png';
 import TwitterIcon from '../images/icons/twitter-logo.png';
+import Footer from '../components/Footer';
 
 class ContactsPage extends Component {
     render() {
@@ -51,6 +52,7 @@ class ContactsPage extends Component {
                     containerElement={<div style={{ height: `400px` }} />}
                     mapElement={<div style={{ height: `100%` }} />}
                 />
+                <Footer/>
             </div>
         );
     }
