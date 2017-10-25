@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Clearfix, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "../styles/Body.css";
 import '../styles/AboutPage.css';
 import DominiquePic from '../images/people/dominique.jpg';
@@ -39,7 +40,7 @@ class AboutPage extends Component {
                             </p>
                         </Col>
                         <Clearfix visibleSmBlock></Clearfix>
-                        <Col sm={6} md={3}><Image src={DominiquePic} responsive /></Col>
+                        <Col sm={6} md={3}><Image src={DominiquePic} /></Col>
                     </Row>
                     <hr/>
                     <Row className="show-grid">
@@ -104,7 +105,7 @@ class AboutPage extends Component {
                                      pour le sport et pour la vie, et &agrave; mon tour, je transmets ces valeurs &agrave;
                                      mes gymnastes afin qu&apos;ils les transmettent &agrave; leur tour.&rdquo;
                                     <br/><br/>
-                                    - <a href="//etoiledemonaco.com/trainers">Thierry Aymes</a>
+                                    - <Link to="/equipe/entraineurs">Thierry Aymes</Link>
                                 </blockquote>
                         </Col>
                     </Row>

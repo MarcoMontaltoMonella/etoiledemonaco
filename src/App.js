@@ -4,6 +4,8 @@ import { Route, Switch } from 'react-router';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import TeamPage from './pages/TeamPage';
+import AthletesPage from './pages/AthletesPage';
 import TrainersPage from './pages/TrainersPage';
 import CoursesPage from './pages/CoursesPage';
 import ContactsPage from './pages/ContactsPage';
@@ -37,11 +39,13 @@ class App extends Component {
                             <Header/>
                             <Switch>
                                 <Route exact path="/" component={HomePage}/>
-                                <Route path="/about" component={AboutPage}/>
-                                <Route path="/trainers" component={TrainersPage}/>
-                                <Route path="/courses" component={CoursesPage}/>
-                                <Route path="/registration" component={RegistrationPage}/>
-                                <Route path="/contacts" component={ContactsPage}/>
+                                <Route exact path="/apropos" component={AboutPage}/>
+                                <Route exact path="/equipe" component={TeamPage}/>
+                                <Route exact path="/equipe/entraineurs" component={TrainersPage}/>
+                                <Route exact path="/equipe/athletes" component={AthletesPage}/>
+                                <Route exact path="/cours" component={CoursesPage}/>
+                                <Route exact path="/inscription" component={RegistrationPage}/>
+                                <Route exact path="/contacts" component={ContactsPage}/>
                                 <Route component={NoFoundPage}/>
                             </Switch>
                         </div>
