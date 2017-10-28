@@ -5,6 +5,8 @@ import '../styles/Body.css';
 import '../styles/ContactsPage.css';
 import FBIcon from '../images/icons/facebook-logo.png';
 import TwitterIcon from '../images/icons/twitter-logo.png';
+import DownloadIcon from '../images/icons/download.png';
+import SponsorshipPDF from '../docs/dossier_sponsoring.pdf';
 import Footer from '../components/Footer';
 
 class ContactsPage extends Component {
@@ -42,6 +44,14 @@ class ContactsPage extends Component {
                     <ListGroupItem href="mailTo:etoile@libello.com">
                         <div className="list-header">Email</div>
                         etoile@libello.com
+                    </ListGroupItem>
+                    <ListGroupItem href={SponsorshipPDF}>
+                        <div className="list-header">Sponsors</div>
+                        Dossier de sponsoring
+                        <br/>
+                        <strong>en t&eacute;l&eacute;chargement ci-dessous</strong>
+                        <br/>
+                        <Image src={DownloadIcon} height={30} width={30} />
                     </ListGroupItem>
                 </ListGroup>
                 

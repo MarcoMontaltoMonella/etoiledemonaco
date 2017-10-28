@@ -1,12 +1,6 @@
 #background-video {
     height: 100%;
     width: 100%;
-    /* filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
-    -webkit-filter:blur(10px);
-    -ms-filter: blur(10px);
-    -o-filter: blur(10px);
-    filter:blur(10px); */
-
     background: url("../images/gifs/flares.gif") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,4 +17,3 @@
     color: white;
     margin-top: 15%;
 }
-
