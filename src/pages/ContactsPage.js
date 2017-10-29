@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem, Grid, Image, Row, Col } from 'react-bootstrap';
+import { ListGroup, ListGroupItem, Grid, Image, Row } from 'react-bootstrap';
 import GMaps from '../components/GMaps';
 import '../styles/Body.css';
 import '../styles/ContactsPage.css';
