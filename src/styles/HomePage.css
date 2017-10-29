@@ -1,7 +1,7 @@
 #background-video {
     height: 100%;
     width: 100%;
-    background: url("../images/gifs/flares.gif") no-repeat center center fixed;
+    background: url("../images/gifs/flares.gif") repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,4 +16,9 @@
     text-align: center;
     color: white;
     margin-top: 15%;
+}
+
+#news {
+    margin-top: 10em;
+    padding-bottom: 5em;
 }

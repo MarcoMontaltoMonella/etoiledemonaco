@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Image, Grid, Row, Col } from 'react-bootstrap';
 import '../styles/Body.css';
 import '../styles/TeamPage.css'
-import TrainersPic from '../images/people/athletes.jpg';
+import TrainersPic from '../images/people/trainers.jpg';
 import AthletesPic from '../images/people/athletes.jpg';
 import { Link } from 'react-router-dom';
 
