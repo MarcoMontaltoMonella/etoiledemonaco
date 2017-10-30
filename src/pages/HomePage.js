@@ -9,7 +9,7 @@ class HomePage extends Component {
 
         return (
             <div className="main-body" id="background-video">
-                <h1 id="hero-title">Un club, un passion, des ambitions</h1>
+                <h1 id="hero-title">Un club, une passion, des ambitions</h1>
                 <Image src={logo}/>
                 <p id="news">
                     <strong>Stages Loisirs Trampoline/Acrobatie</strong><br/>

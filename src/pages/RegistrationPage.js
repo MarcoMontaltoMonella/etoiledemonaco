@@ -31,7 +31,7 @@ class RegistrationPage extends Component {
                 <ListGroupItem>
                     1 enveloppe timbr&eacute;e (MC avec nom et adresse)
                 </ListGroupItem>
-                <ListGroupItem href="/courses">
+                <ListGroupItem href="/cours">
                     La cotisation annuelle
                 </ListGroupItem>
             </ListGroup>

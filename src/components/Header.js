@@ -15,7 +15,7 @@ class Header extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <RouterNavItem eventKey={1} to="/apropos">&Agrave; props</RouterNavItem>
+                        <RouterNavItem eventKey={1} to="/apropos">&Agrave; propos</RouterNavItem>
                         <RouterNavItem eventKey={2} to="/equipe">&Eacute;quipe</RouterNavItem>
                         <RouterNavItem eventKey={3} to="/cours">Cours</RouterNavItem>
                         <RouterNavItem eventKey={4} to="/inscription">Inscription</RouterNavItem>
