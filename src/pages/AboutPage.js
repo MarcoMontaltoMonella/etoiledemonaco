@@ -70,7 +70,7 @@ class AboutPage extends Component {
                     <hr/>
                     <Row className="show-grid">
                         <Col sm={6} md={6}>
-                            <h2>La place du sport dans la notre vie</h2>
+                            <h2>La place du sport dans notre vie</h2>
                             <div className="quote-block">
                                 Le sport est plus qu'une activit&eacute;: il contribue &agrave; 
                                 l'&eacute;quilibre <strong>PHYSIQUE</strong> et <strong>PSYCHIQUE</strong> de chacun.
